@@ -1,0 +1,122 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 180px);
+  column-gap: 100px; /* Espaço entre as colunas (horizontal) */
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.card {
+  margin-top: 50px;
+  background-color: orange;
+  height: 200px;
+  width: 250px;
+  border: 1.1px solid black;
+  border-radius: 10px;
+  display: flex;
+}
+
+.card img {
+  border-radius: 10px;
+  width: 138px;
+  /* Ajuste o tamanho da imagem conforme necessário */
+  height: auto;
+  /* Mantém a proporção da imagem */
+  margin-right: 5px;
+  /* Adiciona espaço entre a imagem e o texto */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  /* Mantém os textos na vertical */
+  justify-content: center;
+  /* Centraliza o texto verticalmente */
+}
+
+h3 {
+  text-align: center;
+  font-size: 15px;
+  color: whitesmoke
+}
+
+h4 {
+  font-size: 15px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 10px;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 60%; /* Ajusta a largura para ser automática */
+  margin: 0 auto; /* Centraliza o header horizontalmente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Footer.css */
+.footer {
+  background-color: #fff;
+  color: black;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer nav a:hover {
+  text-decoration: underline;
+}
+
+.header-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo-style{
+  font-size: 1.5rem;
+}
+
+.nav-style{
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
